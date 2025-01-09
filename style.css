@@ -4,10 +4,11 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: #333;
+    background-color:white;
 }
 
 header {
-    background: #762727;
+    background: black;
     color: white;
     padding: 1em 0;
 }
@@ -40,17 +41,28 @@ header .nav-links a {
 }
 
 #hero {
-    background: url('book.jpeg') no-repeat center center/cover;
-    color: rgb(0, 0, 0);
+    position: relative; 
+    color: black; 
     text-align: center;
     padding: 5em 1em;
-    opacity: 0.8;
+    z-index: 1; 
 }
+
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: url('book.jpeg') no-repeat center center/cover; 
+    opacity: 0.7; 
+    z-index: -1;
+} 
 #hero h2 {
     font-size: 2.5em;
     margin: 0.5em 0;
 }
-
 #hero p {
     font-size: 1.2em;
 }
@@ -62,7 +74,8 @@ header .nav-links a {
     padding: 0.5em 1.5em;
     text-decoration: none;
     margin-top: 1em;
-    border-radius: 5px;
+    border-radius: 10px;
+    
 }
 .hero-container{
     opacity: 1;
@@ -100,4 +113,30 @@ footer {
     text-align: center;
     padding: 1em 0;
     margin-top: 1em;
+}
+.box{
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.2), inset 0 4px 4px rgba(255, 255, 255, 0.3), 0 4px 4px rgba(0, 123, 255, 0.1);
+}
+.login{
+    text-align: center;
+}
+.logIn{
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.2), inset 0 4px 4px rgba(255, 255, 255, 0.3), 0 4px 4px rgba(0, 123, 255, 0.1);
+    color: black;
+}
+.logIn:hover {
+    background: #0235ee;
+    transition: 1s;
+    color: white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3),
+                inset 0 2px 4px rgba(5, 1, 1, 0.3),
+                0 4px 8px rgba(0, 0, 0, 0.2);
+                border: none;
 }
