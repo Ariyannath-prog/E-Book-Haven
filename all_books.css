@@ -118,3 +118,21 @@
     text-decoration: none;
     color: black;
  }
+.btn1{
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(203, 200, 200);
+}
+.btn1:hover{
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    border-radius: 5px;
+}
