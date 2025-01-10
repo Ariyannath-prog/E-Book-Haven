@@ -70,6 +70,9 @@
   
   .products {
     width: 80%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .search-sort {
@@ -107,4 +110,11 @@
     background: #f0f0f0;
     margin-bottom: 1em;
   }
-  
+ .link{
+    text-decoration: none;
+    color: white;
+ }
+ .link2{
+    text-decoration: none;
+    color: black;
+ }
