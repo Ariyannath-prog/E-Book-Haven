@@ -104,9 +104,13 @@ header .nav-links a {
 
 .book img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
-
+.book img:hover {
+    width: 100%;
+    border-radius: 20px;
+    transition: 1s;
+}
 footer {
     background: #333;
     color: white;
@@ -116,6 +120,8 @@ footer {
 }
 .box{
     box-shadow: 0 6px 15px rgba(0, 123, 255, 0.2), inset 0 4px 4px rgba(255, 255, 255, 0.3), 0 4px 4px rgba(0, 123, 255, 0.1);
+    height: 150px;
+    cursor: pointer;
 }
 .login{
     text-align: center;
