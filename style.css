@@ -109,16 +109,16 @@ header .nav-links a {
 
 .book {
     text-align: center;
-    width: 150px;
+    width: 250px;
 }
 
 .book img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .book img:hover {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 30px;
     transition: 1s;
 }
 footer {
