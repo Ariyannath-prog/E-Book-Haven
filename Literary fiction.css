@@ -52,3 +52,6 @@ hr{
     text-align: center;
     font-family: sans-serif;
 }
+hr{
+    border: 1px solid black;
+}
