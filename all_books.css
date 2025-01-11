@@ -34,17 +34,20 @@
     border: none;
     cursor: pointer;
   }
-  
-  .auth .sign-in {
-    background: transparent;
-    border: 1px solid #333;
+  .btn_sign-in{
+    background-color: black;
+    border: 1px solid white;
     border-radius: 5px;
+    height: 30px;
+    width: 70px;
   }
   
-  .auth .register {
-    background: #333;
-    color: #fff;
+  .btn_register{
+    background-color: white;
+    border: none;
     border-radius: 5px;
+    height: 30px;
+    width: 70px;
   }
   
   main {
@@ -122,11 +125,11 @@
   }
  .link{
     text-decoration: none;
-    color: white;
+    color: black;
  }
  .link2{
     text-decoration: none;
-    color: black;
+    color: white;
  }
 .btn1{
     margin-left: 5px;
@@ -150,4 +153,10 @@
     border-radius: 5px;
     border: none;
     box-shadow: 0 1px 10px rgba(149, 4, 246, 0.3);
+}
+#img{
+    width: 150px;
+}
+header{
+    background-color: black;
 }
