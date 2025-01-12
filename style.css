@@ -132,6 +132,7 @@ footer {
     box-shadow: 0 6px 15px rgba(0, 123, 255, 0.2), inset 0 4px 4px rgba(255, 255, 255, 0.3), 0 4px 4px rgba(0, 123, 255, 0.1);
     height: 150px;
     cursor: pointer;
+    transition: 1s;
 }
 .login{
     text-align: center;
